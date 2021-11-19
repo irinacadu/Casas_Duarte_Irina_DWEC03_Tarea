@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--páginas enlazadas-->
+    <script src="js/ventana.js"></script>
+    <script src="js/comprobar_fecha.js"></script>
+    <script src="js/codif.js"></script>
+    <script src="js/palabra10d.js"></script>
+    <script src="js/warTime.js"></script>
+    <script src="js/decode.js"></script>
+    <script src="js/codifdecodif.js"></script>
+    
+    <link rel="stylesheet" tpe="text/css" href="css/stylesheet.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Staatliches&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;1,100&family=Reenie+Beanie&family=Syncopate&display=swap');
+    </style>
+   
+
+</head>
+
+<body >
+    
+    <header>
+    <h1 id="titulo">Tarea DWEC03<p>Irina Casas Duarte</p></h1>
+    
+    </header>
+        <div class="ejerciciosDWEC03">
+         
+            <div class="ejercicios">
+
+            <div class="ejercicio1">          
+                <h1><span>1.</span>Si te estás preguntando en qué día vives y qué hora es, presiona el botón.                  
+                <button type="button" onclick="abrirVentana()" id="enviar1">GO</button></h1>  
+            </div>
+
+            <div class="ejercicio2">
+                <h1><span>2.</span>Introduce una fecha. El formato debe ser: dd/mm/aa o dd mm aa
+                <input type="text" name="fecha" id="fecha"></input>
+                <button type="button" onclick="comprobarFecha()" id="enviar2">GO</button></a></h1>
+            </div>
+
+            <div class="ejercicio3">
+                <h1><span>3.</span>Introduce una palabra de 10 o más letras.
+                <button type="button" onclick="palabra10d()" id="enviar3">Pulsa el botón para empezar</button></h1>
+            </div>
+           
+            <div class="ejercicio4">
+                <h1><span>4.</span>Introduce una palabra para codificarla.
+                <input type="text" name="palabraCod" id="palabraCod"></input>
+                <button type="button" onclick="warTime()" id="enviar4">GO</button></h1>
+            </div>
+                        
+            <div class="ejercicio5">
+                <h1><span>5.</span>Introduce una palabra para codificarla.</h1>
+                <p><input type="text" name="palabra1" id="palabra1"></input></p></h1>
+                <h1 id="posiciones">Introduce el número de posiciones. </h1>
+                <p><input type="number" name="numero" id="numero"></input>
+                <button type="button" onclick="codif()" id="enviar5">GO</button></p></h1>
+            </div>
+
+            <div class="ejercicio6">
+                <h1 ><span>6.</span>Introduce una palabra para DEcodificarla.                  
+                <input type="text" name="palabra2" id="palabra2"></input>
+                <button type="button" onclick="decodificar()" id="enviar6">GO</button></h1>
+           </div>
+
+
+        </div>
+    </div>
+        
+    </body>
+
+</html>

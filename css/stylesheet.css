@@ -1,0 +1,205 @@
+
+.ejerciciosDWEC03{
+
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+  
+}
+
+span{
+
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+header p{
+
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+.ejercicios{
+
+    
+    text-align: center;
+     
+    margin-left: auto;      
+    margin-right: auto; 
+    padding-left: 1rem;
+}
+
+
+#titulo{
+
+    background-color: white;
+    font-size: 2rem;
+    border-top: black solid thin;
+    border-bottom: black solid thin;
+    text-align: center;
+}
+
+
+.ejercicio1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+   
+    padding-top:1.5rem;
+   
+}
+
+.ejercicio2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 1.5rem;
+   
+   
+}
+
+.ejercicio3{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.ejercicio4{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+.ejercicio5{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.ejercicio6{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+
+input{
+    width: 7rem;
+    height: 1.5rem;
+    font-family: "Be vietnam";
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+
+    font-family: "Be vietnam";
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+button{
+
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border:black solid thin;
+    background-color: grey;
+    text-align: center;
+    font-family: "Be vietnam";
+    color:white;
+    font-weight: bolder ;
+}
+
+button:hover{
+
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border:black solid thin;
+    background-color: rgb(7, 252, 27);
+    text-align: center;
+    font-family: "Be vietnam";
+    color:white;
+    font-weight: bolder ;
+}
+
+#enviar3{
+
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border:black solid thin;
+    background-color: grey;
+    text-align: center;
+    font-family: "Be vietnam";
+    color:white;
+    font-weight: bolder ;
+}
+
+#enviar3:hover{
+
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border:black solid thin;
+    background-color: rgb(7, 252, 27);
+    text-align: center;
+    font-family: "Be vietnam";
+    color:white;
+    font-weight: bolder ;
+}
+
+#posiciones{
+
+    padding-left: 1rem;
+}
+
+#numero{
+
+    width: 7rem;
+    height: 1.5rem;
+    font-family: "Be vietnam";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+

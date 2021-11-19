@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" tpe="text/css" href="css/styleVentana.css" />
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Staatliches&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!--Ejercicio 1-->
+
+
+    <p align=center>Hoy es:</p>
+    <script type="text/javascript">
+
+     /* utilizamos la función Date para coger la fecha real de hoy*/
+        let hoy = new Date();
+     /* recogemos el día de hoy. Pasaremos el valor por el switch y depende del que sea le asignaremos un día u otro*/
+        let dia = hoy.getDay();
+
+        switch (dia) {
+
+            case 1:
+
+                dia = "<h2 align=center>Lunes</h2>";
+                break;
+
+            case 2:
+
+                dia = "<h2 align=center>Martes</h2>";
+                break;
+
+            case 3:
+
+                dia = "<h2 align=center>Miercoles</h2>";
+                break;
+
+            case 4:
+
+                dia = "<h2 align=center>Jueves</h2>";
+                break;
+
+            case 5:
+
+                dia = "<h2 align=center>Viernes</h2>";
+                break;
+
+            case 6:
+
+                dia = "<h2 align=center>Sábado</h2>";
+                break;
+
+            case 0:
+
+                dia = "<h2 align=center>Domingo</h2>";
+                break;
+
+        }
+
+        document.write("<h2>" + dia + "</h2><br/>");
+
+
+    </script>
+
+    <p align=center> Y son las:</p>
+
+    <script type="text/javascript">
+   /* con el método Date también podemos "recoger" la hora real*/
+   
+        let horario = new Date();
+        let minutos = horario.getMinutes();
+        let hora = horario.getHours();
+
+/* como el formato no nos incluye un 0 delante de los minutos u horas menores que 10, hago
+un condicional para añadirlo*/
+
+        if (minutos < 10) { minutos = '0' + minutos; }
+
+        if (hora < 10) { hora = '0' + hora; }
+
+
+        document.write("<h2 align=center>" + hora + ":" + minutos + "</h2>");
+
+
+    </script>
+
+    <p align=center> De nada ;)</p>
+
+
+
+
+</body>
+
+</html>
